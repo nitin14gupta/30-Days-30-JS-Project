@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&family=Raleway:ital,wght@0,100..900;1,100..900&family=Teko:wght@300..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Raleway:ital,wght@0,100..900;1,100..900&family=Teko:wght@300..700&display=swap');
+
+body {
+    font-family: 'Arial', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #222;
+    margin: 0 auto;
+   
+}
+
+.quiz-container {
+    width: 800px;
+    text-align: center;
+    padding: 20px;
+    border-radius: 8px;
+    background: white;
+    color: rgba(35, 35, 186, 0.598);
+}
+
+.heading{
+    text-align: start;
+    font-weight: 800;
+font-size: 1.5rem;
+padding: 5px;
+font-family: 'Great Vibes';
+}
+.question-options{
+    font-weight: 500;
+font-size: 1.5rem;
+padding: 5px;
+font-family: 'Poppins';
+}
+
+.question-options h3{
+    text-align: start;
+    margin-left: 10px;
+    
+}
+.question-options div{
+    padding: 0;
+    text-align: start;
+    display: block;
+}
+.opt-btn{
+    list-style: none;
+    border: 2px solid #222;
+    width: 90%;
+    padding: 10px 30px;
+    margin: 20px;
+    cursor: pointer;
+    text-align: start;
+}
+
+.opt-btn:hover{
+background-color: rgb(212, 202, 202);
+}
+
+.btn{
+    text-align: center;
+    padding: 15px 50px;
+    margin: 10px;
+    background-color: rgb(235, 118, 1);
+    border: none;
+    font-size: large;
+    font-weight: 600;
+    cursor: pointer;
+    display: none;
+}
